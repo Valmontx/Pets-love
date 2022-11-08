@@ -1,41 +1,59 @@
 import validator from './validator.js';
-//abriendo ventana mergente//
 
-const btnAbrirModal=
-document.querySelector("#btn-abrir-modal");
-const btnCerrarModal=
-document.querySelector("#btn-cerrar-modal");
-const modal=
-document.querySelector("#modal");
+const btnAbrirModal =
+    document.querySelector("#btn-abrir-modal");
+const modal =
+    document.querySelector("#modal");
 
-btnAbrirModal.addEventListener("click",()=>{
+btnAbrirModal.addEventListener("click", () => {
     modal.showModal();
 
-    
-    var btnValidate = document.getElementById('btnValidate')
-    
-    btnValidate.addEventListener('click',()=> { // Llamando al evento click  con el parámentro () mediante la funcion 
-        let Num = document.getElementById ('cardNumber').value
-        let arrNum = Num.split(""); //Separa 'objetos'-string a una array 
-        console.log (arrNum)
-        arrNum.reverse(); // Devuelve la reversa del array
-        console.log(arrNum)
-        let cardArrNum = arrNum.map((elemento)=> {
-            return Number (elemento); //cambiando array a número
-        
-        });
-        console.log(cardArrNum); //Muestra los argumentos en la consola web 
-
-         });
-         
-         
-}) 
+    let verifica = document.getElementById('btnValidate');
 
 
- 
+    verifica.addEventListener("click", () => {
 
-//function validateTarjeta() {
+        let newNum = document.getElementById('cardNumber').value;
+        //  console.log(newNum, '<<< new num')
 
-//validator.isValid 
+        if (validator.isValid(newNum) === true) {
+
+            alert('Su tarjeta es Valida :)')
+
+        } else {
+
+            alert('Su tarjeta no es Valida :(')
+        }
+    })
+
+    //  const newNum = document.getElementById("cardNumber");
+    // oculta.addEventListener("click", () => {         
+
+    //  validator.maskify(newNum.value);
+    // console.log(oculta);
+
+    // })
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,7 +1,8 @@
 body{
 background:#ee7ae2;
 text-align: center;
-
+background-image: url(img/fondos.png);
+background-size: 1500px;
 }
 
 input {

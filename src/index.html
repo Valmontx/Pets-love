@@ -1,86 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/5a33599dd6.js" crossorigin="anonymous"></script>
 
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/5a33599dd6.js" crossorigin="anonymous"></script>
   
-  
-    
 
-  </head>
 
-  <body>
+
+
+
+</head>
+
+<body>
 
   <!--Ventana Emergente Formulario-->
-      
-      <div class="izquierda" ></div>
-      
-      <h1> !GO VALIDE!</h1>
-      <br> </br>
-      <img src="img/k.png" alt="10px">
-      <div class="derecha" ></div>
-      <h2>  ¿Cómo saber si una tarjeta de crédito esta <b>activa</b>? <br>
-         ¿Cómo comprobar si una tarjeta de credito es válida? Con este  verificador de <b> crédito online</b>  </h2> 
 
-      
-     <button id="btn-abrir-modal">OPEN</button>
-     
-     <button type="button" name="btn-cerrar-modal">CLOSE</button>
 
-     <dialog  id="modal">
 
-      
-<!---------Imagenes de la tarjeta------------>
-         
+  <h1> !GO VALIDE!</h1>
+  <br> 
+  <img src="img/k.png" alt="10px">
 
-        <img class="card" src="img/tarje.png" alt="35px" width="45%">
-        <img class="card" src="img/visa.png" alt="15px"  width="20%">
-        <i class="fa-sharp fa-solid fa-circle-xmark"  ></i>
-       
-        
+  <h2> ¿Cómo saber si una tarjeta de crédito esta <b>activa</b>? <br>
+    ¿Cómo comprobar si una tarjeta de credito es válida? Con este verificador de <b> crédito online</b> </h2>
 
-      
-</section>
 
-<!------------Datos del formulario-------->
+  <button id="btn-abrir-modal">OPEN</button>
 
-<section class="form-section">
-<form class="form" action="">
- 
-  <label for="Name"></label>
-    <input class="form_input" type="text" name="" id="cardName" placeholder="Ingresa tú nombre"  required="" pattern = "[a-zA-Z]+" > 
-   <br></br>
-   <label for="cardNumber"></label>
+  <button type="button" name="btn-cerrar-modal">CLOSE</button>
+
+  <dialog id="modal">
+
+
+    <!---------Imagenes de la tarjeta------------>
+
+
+    <img class="card" src="img/tarje.png" alt="35px" width="45%">
+    <img class="card" src="img/visa.png" alt="15px" width="20%">
+
+
+
+
+
     
-  <input class="form_input" type="number" name="cardNumber" id="cardNumber" placeholder=" Número de tarjeta" maxlength="16" >
-    <br></br>
-  <div class="form_date-cvc">
-    <!--1-->
-    <label for="cardMonth"></label>
-    <!--2-->
-    <div>
-      <input class="form_input" type="text"  maxlength="2" name="cardMonth" id="cardMonth" placeholder="MM">
-      <br></br>
-      <input class="form_input" type="text" maxlength="2" name="cardYear" id="CardYear"  placeholder="YY" >    
-    </div>
-   </div>
-       <br>
-      <button type="submit" class="form_submit" id="btnValidate"   value="Validate">VALIDATE</button>
 
-    </form>
-</section>
-</section>
-   </main>
-       </dialog>
-     
+    <!------------Datos del formulario-------->
+   <main>
+    <section class="form">
+      <form class="form" action="">
 
-      
+        <label for="cardName"></label>
+        <input class="form_input" type="text" id="cardName" placeholder="Ingresa tú nombre" required="">
+        <br>
+        <label for="cardNumber"></label>
+        <br>
+        <input class="form_input" type="number" name="number" id="cardNumber" placeholder=" Número de tarjeta"
+          maxlength="16" required ="" >
+        <br>
+        <div>
+          
+          <label for="cardMonth"></label>
+           
+          <div>
+            <br>
+            <input class="form_input" type="text" maxlength="2" name="cardMonth" id="cardMonth" placeholder="MM"> 
+            <br>
+            <br>
+            <input class="form_input" type="text" maxlength="2" name="cardYear" id="CardYear" placeholder="YY"> 
+            <br>
+            <br>
+
+          </div>
+        </div>
+        <br>
+        <button type="submit" class="form_submit" id="btnValidate" value="Validate">VALIDATE</button>
+        <br>
+
+        <div> <p  class="textFinal" type="text" id="textFinal" >
+        </p>
+        </div>
+
+
+
+  
+             
+       
+
+
+      </form>
+  
+    </section>
+    </main>
+  </dialog>
 
 
 
@@ -91,9 +108,13 @@
 
 
 
-<header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+
+
+  <header></header>
+  <main></main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
