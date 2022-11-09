@@ -1,4 +1,4 @@
-# Project card validation - web :tw-1f4f2:
+# Project card validation - web 
 
 ------------
 ##### Resumen del proyecto:
@@ -22,8 +22,8 @@
 #####  Objetivos con los usuarixs:
 
 - Todos los usuarixs que tengan dudas acerca de la funcionalidad de algunas tarjetas.
-- Una herramienta segura que proporciona rapidéz y eficacia en validez activa.
-- Espacio seguro donde **No almacenamos ** datos de la tarjeta por motivos de seguridad.
+- Una herramienta segura que proporciona rapidéz en validez activa.
+- Espacio seguro donde <b> No almacenamos <b> datos de la tarjeta por motivos de seguridad.
 #####  ¿Cómo pensé en los usuarixs ?
 Brindádoles una app web fácil de entender. Con un diseño dinámico e interactivo donde  no solo te soluciones el problema si no, que visualmente sea agradable.
 
@@ -32,11 +32,11 @@ Brindádoles una app web fácil de entender. Con un diseño dinámico e interact
 
  ###### Proceso y UX:
 -   1 prototipo papel y lapiz.
--   2do prototipo en Figma* (dos diseños diferentes)*
--   Empece esctructurando **HTML - DOM** y traspansado la idea realizando una ventama emergente (modal).
--   Luego seguí con los botones* (input . button)*  dándoles identificaciones y clases para poder llamarlas al Js.
--   Seguido a eso comencé con el **CSS ** guiandome del  diseño de figma. 
-- Para finalizar  comencé con el código -**  Método algoritmo de Lunh**.
+-   2do prototipo en Figma  <i> dos diseños diferentes <i>
+-   Empece esctructurando <b>HTML<b> - <b>DOM<b> y traspasando la idea realizando una ventana emergente <i>(modal)<i>.
+-   Luego seguí con los botones <i> input , button <i>  dándoles identificaciones y clases para poder llamarlas al Js.
+-   Seguido a eso comencé con el <i> CSS <i>  guiándome del  diseño de figma. 
+- Para finalizar  comencé con el código - <b> Método algoritmo de Lunh <b>.
 
 
-  # Valmontx
+  # Val Montero

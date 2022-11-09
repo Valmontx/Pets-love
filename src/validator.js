@@ -10,11 +10,11 @@ const validator = {
       let currentNum = parseInt(cardNumber[i]);
 
 
-      if ((i + 2) % 2 == 0)
+      if ((i + 2) % 2 !== 0) //posicion par
         if ((currentNum *= 2) > 9)
           currentNum -= 9;
       contar += currentNum;
-      // console.log('ejecucion for>>', contar,currentNum)
+     //  console.log('ejecucion for>>', contar,currentNum)
     }
 
     // console.log(contar)
