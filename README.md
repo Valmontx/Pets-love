@@ -13,7 +13,7 @@
 [![Credit-card.png](https://i.postimg.cc/pr45JT2f/Credit-card.png)](https://postimg.cc/wR5B69RM)
 
 ------------
-#### Prototipo 1 papael
+#### Prototipo papel(1)
 
 [![mi-primer.jpg](https://i.postimg.cc/K8bdv5b2/mi-primer.jpg)](https://postimg.cc/0bttVDrW)
 Cuando hice mi primer prototipo tenia en mente dividir mi pagina wed obteniendo dos secciones.
