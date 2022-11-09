@@ -10,7 +10,7 @@ const validator = {
       let currentNum = parseInt(cardNumber[i]);
 
 
-      if ((i + 2) % 2 !== 0) //posicion par
+      if ((i + 2) % 2 == 0) //posicion par
         if ((currentNum *= 2) > 9)
           currentNum -= 9;
       contar += currentNum;
@@ -27,15 +27,15 @@ const validator = {
 
   maskify: function (cardNumber) {
     // console.log('esto es card number', cardNumber)
-    //const cardNumber = '4551038290138341' ej:
+    //const cardNumber = '4551038290138341' 
     let newNum = cardNumber.length;
     let mask = ""
     for (let i = 0; i < newNum - 4; i++) {
       mask += "#";
     }
-    // console.log(mask);
+      //console.log(mask);
     let cadenaOculta = mask + cardNumber.substring(newNum - 4, newNum);
-    // console.log(cadenaOculta);
+    //  console.log(cadenaOculta);
     return cadenaOculta;
 
   }
@@ -43,6 +43,6 @@ const validator = {
 
 };
 //4551038290138341 visa 
-//5261 4850 5361 4216  mastercard
+//5261485053614216  mastercard
 
 export default validator;

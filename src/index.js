@@ -26,7 +26,8 @@ btnAbrirModal.addEventListener("click", () => {
             alert('Su tarjeta no es Valida :(')
         }
     })
-
+        // let maskify = validator.maskify(cardNumber.value);
+       //  document.getElementById("textFinal").value = maskify;
     //  const newNum = document.getElementById("cardNumber");
     // oculta.addEventListener("click", () => {         
 
