@@ -3,7 +3,7 @@
 ------------
 ##### Resumen del proyecto:
 - Es una app web para verificar tarjetas de crédito en estado activo.
-- Realizamos la comprobación con el método del algoritmo Lunh.
+- Realizamos la comprobación con el método del algoritmo Luhn.
 - Es un sitio seguro ya que los datos no se quedan almacenados en algún servidor.<br><br>
 
 ------------
@@ -32,11 +32,11 @@ Brindádoles una app web fácil de entender. Con un diseño dinámico e interact
 
  ###### Proceso y UX:
 -   1 prototipo papel y lapiz.
--   2do prototipo en Figma  <i> dos diseños diferentes <i>
--   Empece esctructurando <b>HTML<b> - <b>DOM<b> y traspasando la idea realizando una ventana emergente <i>(modal)<i>.
--   Luego seguí con los botones <i> input , button <i>  dándoles identificaciones y clases para poder llamarlas al Js.
--   Seguido a eso comencé con el <i> CSS <i>  guiándome del  diseño de figma. 
-- Para finalizar  comencé con el código - <b> Método algoritmo de Lunh <b>.
+-   2do prototipo en Figma  - dos diseños diferentes 
+-   Empece esctructurando HTML - DOM y traspasando la idea realizando una ventana emergente (modal).
+-   Luego seguí con los botones  (input , button)   dándoles identificaciones y clases para poder llamarlas al Js.
+-   Seguido a eso comencé con el  CSS   guiándome del  diseño de figma. 
+- Para finalizar  comencé con el código - Método algoritmo de Lunh.
 
 
-  # Val Montero
+  # <i>Val Montero<i>

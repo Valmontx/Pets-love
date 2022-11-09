@@ -42,7 +42,7 @@ const validator = {
 
 
 };
-//4551 0382 9013 8341 visa 
+//4551038290138341 visa 
 //5261 4850 5361 4216  mastercard
 
 export default validator;

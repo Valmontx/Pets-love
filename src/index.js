@@ -15,11 +15,12 @@ btnAbrirModal.addEventListener("click", () => {
 
         let newNum = document.getElementById('cardNumber').value;
         //  console.log(newNum, '<<< new num')
-
-        if (validator.isValid(newNum) === true) {
+             // alert('Completar los datos')
+        
+          if (validator.isValid(newNum) === true) {
 
             alert('Su tarjeta es Valida :)')
-
+                       
         } else {
 
             alert('Su tarjeta no es Valida :(')
