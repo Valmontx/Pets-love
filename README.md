@@ -24,7 +24,7 @@ Cuando hice mi primer prototipo tenia en mente dividir mi pagina wed obteniendo 
 
 - Todos los usuarixs que tengan dudas acerca de la funcionalidad de algunas tarjetas.
 - Una herramienta segura que proporciona rapidéz en validez activa.
-- Espacio seguro donde <b> No almacenamos datos de la tarjeta por motivos de seguridad.
+- Espacio seguro donde No almacenamos datos de la tarjeta por motivos de seguridad.
 #####  ¿Cómo pensé en los usuarixs ?
 Brindádoles una app web fácil de entender. Con un diseño dinámico e interactivo donde  no solo te solucione el problema, si no que visualmente sea agradable.
 
