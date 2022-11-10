@@ -12,29 +12,27 @@ btnAbrirModal.addEventListener("click", () => {
 
 
     verifica.addEventListener("click", () => {
-
+        // let message="";
         let newNum = document.getElementById('cardNumber').value;
-        //  console.log(newNum, '<<< new num')
-             // alert('Completar los datos')
-        
-          if (validator.isValid(newNum) === true) {
+        let validation = document.getElementById('validar');
 
-            alert('Su tarjeta es Valida :)')
-                       
+
+        if (validator.isValid(newNum) === true) {
+            //  message = "Su tarjeta es valida :)"
+            alert('Su tarjeta es valida :)')
+
         } else {
 
-            alert('Su tarjeta no es Valida :(')
+            alert('Su tarjeta NO es valida :(')
+
+            //message= "su tarjeta es invalida :("
         }
+
+        // validation.textContent= message;
+        validation.textContent = validator.maskify(newNum);
     })
-        // let maskify = validator.maskify(cardNumber.value);
-       //  document.getElementById("textFinal").value = maskify;
-    //  const newNum = document.getElementById("cardNumber");
-    // oculta.addEventListener("click", () => {         
 
-    //  validator.maskify(newNum.value);
-    // console.log(oculta);
 
-    // })
 });
 
 
