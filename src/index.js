@@ -25,7 +25,7 @@ let verifica = document.getElementById('btnValidate');
 
             alert('Su tarjeta NO es valida, intente de nuevo :(')
 
-            //message= "su tarjeta es invalida :("
+        
         }
 
         // validation.textContent= message;
