@@ -9,38 +9,37 @@ const validator = {
     for (let i = 0; i < length; i++) { // i++ es el valor de i antes del incremento
       let currentNum = parseInt(cardNumber[i]); //cadena combertida a uno entero 
 
-
       if ((i + 2) % 2 == 0) //posicion par
-        if ((currentNum *= 2) > 9) //operadores de asignacion 
+
+        if ((currentNum *= 2) > 9) { //operadores de asignacion 
+
           currentNum -= 9;
-          contar += currentNum;
+        } contar += currentNum;
       //  console.log('ejecucion for>>', contar,currentNum)
     }
-
-      // console.log(contar)
-         return (contar % 10) === 0
-
-
+    if (contar % 10 === 0) {
+      return true
+    } else {
+      return false
+    }
   },
 
-
-
   maskify: function (cardNumber) {
-    
+
     //const cardNumber = '4551038290138341' 
     let newNum = cardNumber.length;
     let mask = ""
     for (let i = 0; i < newNum - 4; i++) {
       mask += "#";
     }
-    
+
     let cadenaOculta = mask + cardNumber.substring(newNum - 4, newNum);
     //  console.log(cadenaOculta);
     return cadenaOculta;
 
   }
-    
 
+  // selectores css 
 };
 //4551038290138341 visa 
 //5261485053614216  mastercard

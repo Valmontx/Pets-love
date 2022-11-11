@@ -12,112 +12,81 @@
   
 
 
-
-
-
 </head>
 
 <body>
-
   <!--Ventana Emergente Formulario-->
 
 
+  <header>
+    <h1> !GO VALIDE!</h1>
+    <br>
+  </header>
+  <main>
+    <img src="img/k.png" alt="10px">
 
-  <h1> !GO VALIDE!</h1>
-  <br> 
-  <img src="img/k.png" alt="10px">
-
-  <h2> ¿Cómo saber si una tarjeta de crédito esta <b>activa</b>? <br>
-    ¿Cómo comprobar si una tarjeta de credito es válida? Con este verificador de <b> crédito online</b> </h2>
-
-
-  <button id="btn-abrir-modal">OPEN</button>
-
-  <button type="button" name="btn-cerrar-modal">CLOSE</button>
-
-  <dialog id="modal">
+    <h2> ¿Cómo saber si una tarjeta de crédito esta <b>activa</b>? <br>
+      ¿Cómo comprobar si una tarjeta de credito es válida? Con este verificador de <b> crédito online</b> </h2>
 
 
-    <!---------Imagenes de la tarjeta------------>
+    <button id="btn-abrir-modal">ABRIR</button>
+
+    <button type="button" name="btn-cerrar-modal">CERRAR</button>
+
+    <dialog id="modal">
 
 
-    <img class="card" src="img/tarje.png" alt="35px" width="45%">
-    <img class="card" src="img/visa.png" alt="15px" width="20%">
+      <!---------Imagenes de la tarjeta------------>
 
 
+      <img class="card" src="img/tarje.png" alt="35px" width="45%">
+      <img class="card" src="img/visa.png" alt="15px" width="20%">
 
+      <!------------Datos del formulario-------->
 
+      <section class="form">
+        <form class="form" action="">
 
-    
-
-    <!------------Datos del formulario-------->
-   <main>
-    <section class="form">
-      <form class="form" action="">
-
-        <label for="cardName"></label>
-        <input class="form_input" type="text" id="cardName" placeholder="Ingresa tú nombre" required="">
-        <br>
-        <label for="cardNumber"></label>
-        <br>
-        <input class="form_input" type="number" name="number" id="cardNumber" placeholder=" Número de tarjeta"
-          maxlength="16" required ="" >
-        <br>
-        <div>
-          
-          <label for="cardMonth"></label>
-           
+          <label for="cardName"></label>
+          <input class="form_input" type="text" id="cardName" placeholder="Ingresa tú nombre" required="">
+          <br>
+          <label for="cardNumber"></label>
+          <br>
+          <input class="form_input" type="number" name="number" id="cardNumber" placeholder=" Número de tarjeta"
+            maxlength="16" required>
+          <br>
           <div>
-            <br>
-            <input class="form_input" type="text" maxlength="2" name="cardMonth" id="cardMonth" placeholder="MM"> 
-            <br>
-            <br>
-            <input class="form_input" type="text" maxlength="2" name="cardYear" id="CardYear" placeholder="YY"> 
-            <br>
-            <br>
 
+            <label for="cardMonth"></label>
+
+            <div>
+              <br>
+              <input class="form_input" type="text" maxlength="2" name="cardMonth" id="cardMonth" placeholder="Mes">
+              <br>
+              <br>
+              <input class="form_input" type="text" maxlength="2" name="cardYear" id="CardYear" placeholder="Año">
+              <br>
+              <br>
+
+            </div>
           </div>
-        </div>
-        
-        <button type="submit" class="form_submit" id="btnValidate" value="Validate">VALIDATE</button>
-        <br>
-        <br>
 
-        <div class="oculta"> 
-         <label for="mascara" class="form_texto"></label> 
-         <div disabled="true" class="form_texto" id="validar" style="font-size:15px" ></div> 
-        </div>
-        
-        
+          <button type="submit" class="form_submit" id="btnValidate" value="Validate">VALIDAR</button>
+          <br>
+          <br>
 
+          <div class="oculta">
+            <label for="mascara" class="form_texto"></label>
+            <div disabled="true" class="form_texto" id="validar" style="font-size:15px"></div>
+          </div>
 
+            
+        </form>
 
-  
-             
-       
-
-
-      </form>
-  
-    </section>
-    </main>
+      </section>
+  </main>
   </dialog>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <header></header>
-  <main></main>
-  <footer></footer>
   <script src="index.js" type="module"></script>
 </body>
 
