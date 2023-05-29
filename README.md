@@ -1,5 +1,5 @@
 # Project card validation 
-*## Tema : YouGlam 💄*
+*Tema : YouGlam 💄*
 
 ### Resumen del proyecto:
  Este proyecto consiste en desarrollar un validador de tarjetas para un sitio web de belleza. El objetivo principal es ofrecer clases de automaquillaje a los usuarios, quienes deberán registrarse, proporcionar sus datos y pagar por la clase. Nuestro sistema se encargará de validar y verificar la activación de la tarjeta de crédito al momento de ingresarla.
