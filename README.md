@@ -14,6 +14,7 @@ El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se a
 ### Wireframe
 [¡(baja-fidelidad.png)]
 
+![baja fidelidad](https://github.com/Valmontx/githuvalmontx/assets/108588943/504d0170-0796-4969-b925-5fea2a02a54e)
 
 ### Prototipo Figma
 [![page-glam.png]
@@ -29,14 +30,11 @@ El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se a
 
 ####  ¿Cómo pensé en los usuarios ?
 En resumen, ofrecerles una experiencia educativa de calidad y garantizar la seguridad de sus datos al validar sus tarjetas de crédito.
-**brindar una experiencia satisfactoria en el uso del sitio web.**
+    **brindar una experiencia satisfactoria en el uso del sitio web.**
 
 
-
-### Paleta de colores: 
-`color:#ffc2fb
- color:#ff18cd
- color:#272727`
+#### Paleta de colores: 
+`colores:#ffc2fb #ff18cd #272727`
 
 ## Valeria Montero 
 
