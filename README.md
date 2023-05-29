@@ -1,5 +1,4 @@
 # Project card validation 
-
 ## Tema : YouGlam 💄 
 
 ##### Resumen del proyecto:
@@ -30,7 +29,7 @@ El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se a
 
 ####  ¿Cómo pensé en los usuarios ?
 En resumen, ofrecerles una experiencia educativa de calidad y garantizar la seguridad de sus datos al validar sus tarjetas de crédito.
-    **brindar una experiencia satisfactoria en el uso del sitio web.**
+    **Brindar una experiencia satisfactoria en el uso del sitio web.**
 
 
 #### Paleta de colores: 
