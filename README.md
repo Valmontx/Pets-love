@@ -1,7 +1,7 @@
 # Project card validation 
 ## Tema : YouGlam 💄 
 
-##### Resumen del proyecto:
+### Resumen del proyecto:
  Este proyecto consiste en desarrollar un validador de tarjetas para un sitio web de belleza. El objetivo principal es ofrecer clases de automaquillaje a los usuarios, quienes deberán registrarse, proporcionar sus datos y pagar por la clase. Nuestro sistema se encargará de validar y verificar la activación de la tarjeta de crédito al momento de ingresarla.
 
 El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se almacenan en ningún servidor. Para llevar a cabo estos procesos, hemos utilizado el algoritmo de Luhn, ampliamente reconocido y utilizado para la validación de números de tarjeta de crédito.
@@ -11,13 +11,12 @@ El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se a
 
 
 ### Wireframe
-[¡(baja-fidelidad.png)]
 
 ![baja fidelidad](https://github.com/Valmontx/githuvalmontx/assets/108588943/504d0170-0796-4969-b925-5fea2a02a54e)
 
 ### Prototipo Figma
-[![page-glam.png]
 
+![page-glam](https://github.com/Valmontx/githuvalmontx/assets/108588943/a5a7b599-fb42-41af-a3fb-4c219604a834)
 
 
 # Investigación UX 
