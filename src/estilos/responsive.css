@@ -1,0 +1,239 @@
+@media screen and (max-width:490px) {
+    body {
+        font-size: 14px;
+        overflow: scroll;
+    }
+
+    .tittle-you {
+        position: absolute;
+        width: 129.64px;
+        height: 63px;
+        left: 97px;
+        top: 37px;
+        font-family: 'Adamina';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 68px;
+        color: #FF00C7;
+        text-shadow: 0px 4px 4px rgba(255, 0, 199, 0.47);
+    }
+
+    .tittle-glam {
+        position: absolute;
+        width: 178.36px;
+        height: 92px;
+        left: 115px;
+        top: 55px;
+        font-family: 'Licorice';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 62px;
+        color: #FFFFFF;
+
+    }
+
+    .text-makeup {
+        position: absolute;
+        width: 280px;
+        height: 292px;
+        left: 56px;
+        top: 143px;
+    }
+
+    .img-makeup {
+        display: none;
+    }
+
+    .container-main {
+        text-align: right;
+        position: absolute;
+        left: -30px;
+        top: -25px;
+    }
+
+    .text-reserve {
+        position: absolute;
+        width: 175px;
+        height: 26px;
+        left: 105px;
+        top: 620px;
+        font-family: 'Fredoka';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        color: #FF0099;
+        cursor: pointer;
+
+    }
+
+    .instagram,
+    .facebook,
+    .phone,
+    .contact,
+    .container-footer ,.card-credit {
+        display: none;
+    }
+
+    #btn-abrir-modal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 16px;
+        position: absolute;
+        width: 104px;
+        height: 26px;
+        left: 139px;
+        top: 700px;
+        background: #FFFFFF;
+        border-radius: 5px;
+
+    }
+
+    #modal {
+        box-sizing: border-box;
+        position: absolute;
+        width: 317px;
+        height: 354px;
+        left: 27px;
+        top: 152px;
+        background: #FAC3C3;
+        border: 6px solid #FFFFFF;
+        border-radius: 50px;
+    }
+    .form-modal {
+ 
+        display: flex;
+        flex-direction: column;
+        left: 15px;
+        top: -90px;
+        position: absolute;
+        width: 664px;
+        height: 309px;
+        border-radius: 5px;
+     
+     }
+
+    
+    .form_input {
+        position: absolute;
+        top: 168px;
+        left: 15px;
+        box-sizing: border-box;
+        width: 250px;
+        height: 35px;
+        background: #FFFFFF;
+        border: 2px solid #D9D9D9;
+        border-radius: 8px;
+        text-indent: 30px;
+     
+     }
+     .card-year {
+        position: absolute;
+        top: 240px;
+        left: 89px;
+        box-sizing: border-box;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 16px;
+        width: 58px;
+        height: 35px;
+        background: #FFFFFF;
+        border: 2px solid #D9D9D9;
+        border-radius: 8px;
+     
+     }
+     .card-security {
+        position: absolute;
+        left: 180px;
+        top: 216px;
+        color: #52525C;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+     }
+     
+     .Security-code {
+        box-sizing: border-box;
+        position: absolute;
+        left: 175px;
+        top: 242px;
+        padding: 12px 16px;
+        gap: 8px;
+        width: 90px;
+        height: 35px;
+        background: #FFFFFF;
+        border: 2px solid #D9D9D9;
+        border-radius: 8px;
+        text-indent: 15px;
+     
+     }
+     .holder-name {
+        box-sizing: border-box;
+        position: absolute;
+        top: 315px;
+        left: 20px;
+        display: flex;
+        flex-direction: row;
+        width: 245px;
+        height: 35px;
+        background: #FFFFFF;
+        border: 2px solid #D9D9D9;
+        border-radius: 8px;
+        text-indent: 15px;
+     }
+     .icon-security {
+        width: 21px;
+        position: absolute;
+        top: 248px;
+        left: 183px;
+     
+     }
+
+     .btn-submit {
+        position: absolute;
+        bottom: -42px;
+        left: 95px;
+        padding: 0px 16px;
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        background: #000000;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-family: 'Inter' cursive;
+        border: none;
+        cursor: pointer;
+     }
+     .txt-end {
+        width: 270px;
+         position: absolute;
+         bottom: -80px;
+         left: 15px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 10px;
+         line-height: 15px;
+         color: #52525C;
+      
+      }
+      #btn-cerrar-modal {
+        position: absolute;
+        left: 168px;
+        top: 15px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        
+     }
+    
+
+
+
+}

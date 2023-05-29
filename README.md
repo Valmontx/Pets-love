@@ -1,53 +1,49 @@
-# Project card validation - web 
+# Project card validation - You Glam 💄
 
 ------------
 ##### Resumen del proyecto:
-- Es una app web para verificar tarjetas de crédito en estado activo.
-- Realizamos la comprobación con el método del algoritmo Luhn.
-- Es un sitio seguro ya que los datos no se quedan almacenados en algún servidor.<br><br>
+ Este proyecto consiste en desarrollar un validador de tarjetas para un sitio web de belleza. El objetivo principal es ofrecer clases de automaquillaje a los usuarios, quienes deberán registrarse, proporcionar sus datos y pagar por la clase. Nuestro sistema se encargará de validar y verificar la activación de la tarjeta de crédito al momento de ingresarla.
+
+El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se almacenan en ningún servidor. Para llevar a cabo estos procesos, hemos utilizado el algoritmo de Luhn, ampliamente reconocido y utilizado para la validación de números de tarjeta de crédito.
+
+*Al ingresar tus datos se comprobará mediante un  **Alert** su validez, asimismo mostrará los ultimos 4 números ingresados y el resto se mantedrá oculto.*
 
 ------------
 
-
-##### Prototipo de baja fidelidad.
-[![mi-primer.jpg](https://i.postimg.cc/K8bdv5b2/mi-primer.jpg)](https://postimg.cc/0bttVDrW)
-Cuando hice mi primer prototipo tenia en mente dividir mi pagina wed obteniendo dos secciones.
+#### Wireframe
+[¡(baja-fidelidad.png)]
 
 
 ------------
-#### Prototipo de alta fidelidad.
-[![Credit-card.png](https://i.postimg.cc/pr45JT2f/Credit-card.png)](https://postimg.cc/wR5B69RM)
-
-
+### Prototipo Fimga.
+[![page-glam.png]
 
 ------------
 
-#####  Objetivos con los usuarixs:
+# Investigación UX 
 
-- Todos los usuarixs que tengan dudas acerca de la funcionalidad de algunas tarjetas.
-- Una herramienta segura que proporciona rapidéz en validez activa.
-- Espacio seguro donde No almacenamos datos de la tarjeta por motivos de seguridad.
-#####  ¿Cómo pensé en los usuarixs ?
-Brindádoles una app web fácil de entender. Con un diseño dinámico e interactivo donde  no solo te solucione el problema, si no que visualmente sea agradable.
+####  Objetivos con los usuarios:
+- Proporcionar a los usuarios un sitio web de belleza donde puedan acceder a clases de automaquillaje. El objetivo principal es brindarles una experiencia educativa y satisfactoria en el campo del automaquillaje.
+- Garantizar la seguridad de los datos de los usuarios. Estableciendo un entorno seguro donde los usuarios se sientan confiados al proporcionar su información personal y de pago. **Al asegurar que los datos no se almacenen en ningún servidor, se protege la privacidad de los usuarios.**
+- Brindar una experiencia satisfactoria de usuario. Ofreciendo una interfaz amigable, intuitiva y de fácil navegación en el sitio web, para que los usuarios puedan acceder a la información de las clases, realizar pagos y gestionar su perfil de manera cómoda y sin problemas.
+
+####  ¿Cómo pensé en los usuarios ?
+En resumen, ofrecerles una experiencia educativa de calidad y garantizar la seguridad de sus datos al validar sus tarjetas de crédito.
+**brindar una experiencia satisfactoria en el uso del sitio web.**
 
 ------------
 
+#### Paleta de colores: 
+`color:#ffc2fb
+ color:#ff18cd
+ color:#272727`
 
- ###### Proceso y UX:
--   1 prototipo papel y lapiz.
-<<<<<<< HEAD
--   2do prototipo en Figma  - dos diseños diferentes 
--   Empece esctructurando HTML - DOM y traspasando la idea realizando una ventana emergente (modal).
--   Luego seguí con los botones  (input , button)   dándoles identificaciones y clases para poder llamarlas al Js.
--   Seguido a eso comencé con el  CSS   guiándome del  diseño de figma. 
-- Para finalizar  comencé con el código - Método algoritmo de Lunh.
-=======
--   2do prototipo en Figma  dos diseños diferentes 
--   Empece esctructurando HTML - DOM y traspasando la idea realizando una ventana emergente (modal).
--   Luego seguí con los botones  input , button   dándoles identificaciones y clases para poder llamarlas al Js.
--   Seguido a eso comencé con el  CSS   guiándome del  diseño de figma. 
-- Para finalizar  comencé con el código -  Método algoritmo de Lunh.
->>>>>>> a01ce9c029466ea07a1d701326ce4343d58d3b67
+**Valeria Montero**
 
 
-  # <i>Val Montero<i>
+
+
+
+
+
+ 

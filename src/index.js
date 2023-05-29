@@ -1,55 +1,45 @@
 import validator from './validator.js';
 
-const btnAbrirModal =
-    document.querySelector("#btn-abrir-modal");
-const modal =
-    document.querySelector("#modal");
+const btnAbrirModal = document.querySelector("#btn-abrir-modal");
+const modal = document.querySelector("#modal");
+
+ const btnCerrarModal = document.getElementById('btn-cerrar-modal');
+
 
 btnAbrirModal.addEventListener("click", () => {
     modal.showModal();
+
+btnCerrarModal.addEventListener('click', () =>{
+     modal.close();
+}) 
 
 let verifica = document.getElementById('btnValidate');
     
 
         verifica.addEventListener("click", () => {
-        // let message="";
+    
         let newNum = document.getElementById('cardNumber').value;
         let validation = document.getElementById('validar');
         
         
         if (validator.isValid(newNum) === true) {
             //  message = "Su tarjeta es valida :)"
-           alert('Su tarjeta '  + validator.maskify(newNum) + ' es valida :)')
+           alert('Your card '  + validator.maskify(newNum) + ' is valid 😃')
 
         } else {
 
-            alert('Su tarjeta NO es valida, intente de nuevo :(')
-
+            alert('Please enter a valid card number')
+            modal.close()
         
         }
 
-        // validation.textContent= message;
+     
         validation.textContent = validator.maskify(newNum);
         
     })
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
