@@ -16,7 +16,7 @@ El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se a
 
 ### Prototipo Figma
 
-![page-glam](https://github.com/Valmontx/githuvalmontx/assets/108588943/a5a7b599-fb42-41af-a3fb-4c219604a834)
+![youglam](https://github.com/Valmontx/githuvalmontx/assets/108588943/1e5b6f23-8f83-4f71-a2b3-722191a89525)
 
 
 # Investigación UX 
