@@ -16,7 +16,11 @@ El sitio web garantiza la seguridad de los datos de los usuarios, ya que no se a
 
 ### Prototipo Figma
 
-![youglam](https://github.com/Valmontx/githuvalmontx/assets/108588943/1e5b6f23-8f83-4f71-a2b3-722191a89525)
+![figma](https://github.com/Valmontx/Card-validation/assets/108588943/104f5054-6d5f-4367-84d9-c463955d4090)
+
+### Diseño final 
+
+![youglam](https://github.com/Valmontx/Card-validation/assets/108588943/39dc14fe-f41b-42cb-a448-b97bd005da13)
 
 
 # Investigación UX 
