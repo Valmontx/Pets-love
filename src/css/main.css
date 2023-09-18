@@ -35,7 +35,7 @@ section {
   justify-content: space-evenly;
   width: 50%;
   height: 280px;
-  background-image: url(/src/assets/backpet.jpg);  /*img con error 404*/
+  background-image: url(./img/backpet.jpg);  /*img con error 404*/ 
   border-radius: 10px;
   box-shadow: 4px 4px 4px 4px rgba(25, 25, 26, 0.37);
 }
