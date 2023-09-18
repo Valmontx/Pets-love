@@ -23,8 +23,8 @@ let verifica = document.getElementById('btnValidate');
         
         
         if (validator.isValid(newNum) === true) {
-            //  message = "Su tarjeta es valida :)"
-           alert('Your card '  + validator.maskify(newNum) + ' is valid 😃')
+        
+           alert(' Thank you! your donation ' + validator.maskify(newNum) + ' has been sent 🐶🐱')
 
         } else {
 
@@ -34,7 +34,7 @@ let verifica = document.getElementById('btnValidate');
         }
 
      
-        validation.textContent = validator.maskify(newNum);
+        // validation.textContent = validator.maskify(newNum);
         
     })
 

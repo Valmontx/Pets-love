@@ -3,79 +3,67 @@
 
 <head>
   <meta charset="utf-8">
-  <title>YouGlam</title>
-  <link rel="Icon" href= "img/vectorMakeup.png"/>
-  <link rel="stylesheet" href="./estilos/style.css" />
-  <link rel="stylesheet" href="./estilos/modal.css" />
-  <link rel="stylesheet" href="./estilos/responsive.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Pet lover</title>
+  <link rel="icon" href="img/icon.png" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/modal.css" />
   <link
-    href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Adamina&family=Bubblegum+Sans&family=Caveat+Brush&family=Fredoka&family=Gaegu:wght@700&family=Itim&family=Licorice&family=Luckiest+Guy&family=Margarine&family=Mochiy+Pop+P+One&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=IBM+Plex+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Mooli&display=swap"
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 </head>
 
 <body>
-  <main class="container-main">
-    <h1 class="tittle-you">You</h1>
-    <h2 class="tittle-glam">Glam</h2>
-  </main>
   <section>
-    <p class="text-makeup"> Join us and sign up for our sel-makeup workshop. What will your learn? You will discover
-      how to look glamorous at all times, by learning the necessary techniques for a subtle and delicate
-      makeup that will highlight your best features. Do not miss the opportunity and take advantage of our
-      exclusive offer for the month of <span class="discount"> May 40% discount!</span>
-    </p>
-    <h4 class="text-reserve">Reserve your place here!</h4>
-
-    <button type="button" id="btn-abrir-modal"> <strong>Pay here</strong></button>
-  </section>
-  <img class="img-makeup" src="img/imgMakeup.png">
-  <div class="container-icon-red-social">
-    <h6 class="contact"> Contact </h6>
-    <img class="instagram" src="img/instagram.png">
-    <img class="facebook" src="img/facebook.png">
-    <img class="phone" src="img/phone.png">
-  </div>
-
-  <footer class="container-footer">
-    <p class="text-footer">
-      © 2023 Youglam
-    </p>
-  </footer>
-
-  <div class="modal-container">
-  <dialog id="modal">
-   
-    <form class="form-modal" action="">
-      <button id="btn-cerrar-modal" type="button">X</button>
-      <img class="card-credit" src="img/cardCredit.png">
-      <label class="card-name" for="cardName"> Card number</label>
-
-      <input class="form_input" type="text" name="number" id="cardNumber" placeholder="0000 0000 0000 0000"
-        maxlength="16" required>
-      <img class="icon-card" src="img/Icon.png">
-      <label class="card-expires"> Expires</label>
-      <input class="card-mouth" placeholder="MM" maxlength="2">
-      <input class="card-year" placeholder="YY" maxlength="2">
-      <label class="card-security"> Security code</label>
-      <input class="Security-code" maxlength="3" placeholder="CVC">
-      <img class="icon-security" src="img/security.png">
-      <label class="card-holder"> Cardholder name</label>
-      <input class="holder-name" placeholder="Amy Schumer">
-      <button type="submit" class="btn-submit" id="btnValidate" value="Validate">Submit</button>
-      <p class="txt-end">Your transaction is protected with SSL encryption
-        <img src="img/Vector.png">
+    <div class="card">
+      <h1 class="card__tittle"> Pet lover </h1>
+      <p class="card__txt">
+        <b>Help us save lives!❤️</b> Your donation supports our association in the protection and care of animals in
+        need. Together we make a difference.
       </p>
-    </form>
-  
-  </dialog>
-</div>
+      <p class="card__txt  txt--color"> 10$ coupon <img src="./img/surprise.png"> </p>
+      <button type="button" class="card__button" id="btn-abrir-modal"> Donate</button>
+    </div>
+    </div>
+  </section>
+  <div class="container-modal">
+    <dialog class="modal-flex" id="modal">
+      <form class="form-modal">
+        <button class="card-close" id="btn-cerrar-modal" type="button">X</button>
+        <div class="form_input">
 
+          <label class="card-label" for="cardName"> Card number</label>
+           <span class="icon-card"></span>
+          <input  class="card_input"  type="text" name="number" id="cardNumber" placeholder= "0000 0000 0000 0000 "
+            maxlength="16" required  >
+        </div>
+        <div class="container_expires-security">
+          <div class="form_input card-expires">
+            <label class="card-label"> Expires</label>
+            <div class="container-expires">
+            <input class="card_input card-date" placeholder="MM" maxlength="2">
+            <input class="card_input card-date" placeholder="YY" maxlength="2">
+            </div>      
+          </div>
+          <div class="form_input card-security">
+            <label class="card-label"> Security code</label>
+            <input class="card_input security-code" maxlength="3" placeholder="CVC">
+          </div>
+        </div>    
+        <div class="form_input card-name">
+          <label class="card-label"> Cardholder name</label>
+          <input class="card_input card-name" placeholder="Amy Schumer">
+        </div>
+        <button type="submit" class="form_input card-submit" id="btnValidate" value="Validate">Submit</button>
+        <p class="card-label label-end"> <span class="padlock"></span> Your transaction is protected with SSL encryption
+        </p>
+      </form>
+    </dialog>
+  </div>
+  
+
+  <div id="root"></div>
   <script src="index.js" type="module"></script>
 </body>
-
 </html>
-

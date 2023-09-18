@@ -34,8 +34,6 @@ const validator = {
     return cadenaOculta;
 
   }
-
-
 };
 //4551038290138341 visa 
 //5261485053614216  mastercard

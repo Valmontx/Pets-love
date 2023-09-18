@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fceeee;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-image: url(/src/img/codioful.jpg);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  text-align: center;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 280px;
+  background-image: url(/src/img/backpet.jpg);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px rgba(25, 25, 26, 0.37);
+
+}
+
+.card__tittle {
+  display: inline-flex;
+  align-content: center;
+  font-family: 'Mooli', sans-serif;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #444040;
+
+}
+
+.card__txt {
+
+  width: 100%;
+  padding: 10px;
+  font-family: 'Mooli', sans-serif;
+  align-self: center;
+  font-size: 1em;
+  color: #444040;
+}
+
+.txt--color {
+  text-align: right;
+  color: #b2a79f;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.card__button {
+  
+  align-self: flex-end;
+  width: 15vw;
+  min-height:45px;
+  background: none;
+  border: none;
+  border-radius: 15px;
+  background-color: #b2a79f;
+  color: #fceeee;
+  font-family: 'Mooli', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1em;
+
+
+}
+
+@media (max-width: 768px){
+ .container_expires-security{
+  
+  gap:20px;
+}
+}
+
+/*# sourceMappingURL=main.css.map */
