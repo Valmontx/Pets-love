@@ -96,7 +96,7 @@ dialog{
   display: inline-block;
   width: 8px;
   height: 8px;
-  background-image: url(/src/img/segurity.png);
+  background-image: url(/src/assets/segurity.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

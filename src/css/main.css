@@ -9,7 +9,9 @@ body {
   background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
-  background-image: url(/src/img/codioful.jpg);
+  background-position: center;
+  background-image: url(/src/assets/codioful.jpg);
+  
 }
 
 section {
@@ -28,7 +30,7 @@ section {
   justify-content: space-evenly;
   width: 50%;
   height: 280px;
-  background-image: url(/src/img/backpet.jpg);
+  background-image: url( /src/assets/backpet.jpg);
   border-radius: 10px;
   box-shadow: 4px 4px 4px 4px rgba(25, 25, 26, 0.37);
 
