@@ -10,7 +10,7 @@ body {
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/src/assets/codioful.jpg);
+  background-image: url(/assets/codioful.jpg);
   
 }
 
@@ -30,7 +30,7 @@ section {
   justify-content: space-evenly;
   width: 50%;
   height: 280px;
-  background-image: url( /src/assets/backpet.jpg);
+  background-image: url(/assets/backpet.jpg);
   border-radius: 10px;
   box-shadow: 4px 4px 4px 4px rgba(25, 25, 26, 0.37);
 
