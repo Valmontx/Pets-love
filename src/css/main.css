@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #fceeee;
+.img-extra{
+  position:absolute;
   background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/src/assets/pruebafondo.jpg);
-  
+}
+
+
+body {
+  background-color: #fceeee;
+  /* background-image: url(/src/assets/codioful.jpg); */ /*img con error 404*/ 
 }
 
 section {
@@ -22,6 +26,7 @@ section {
 }
 
 .card {
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
@@ -30,10 +35,9 @@ section {
   justify-content: space-evenly;
   width: 50%;
   height: 280px;
-  background-image: url(/src/assets/backpet.jpg); 
+  background-image: url(/src/assets/backpet.jpg);  /*img con error 404*/
   border-radius: 10px;
   box-shadow: 4px 4px 4px 4px rgba(25, 25, 26, 0.37);
-
 }
 
 .card__tittle {
